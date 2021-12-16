@@ -1,0 +1,98 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.head{
+margin-top: 60px;
+}
+.head h1{
+text-align: center;
+color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 45px;
+
+text-shadow: 0 0 10px rgb(255, 0, 102),
+0 0 20px rgb(255, 0, 102),
+0 0 40px rgb(255, 0, 102),
+0 0 80px rgb(255, 0, 102),
+0 0 140px rgb(255, 0, 102);
+}
+
+.head .all-slider{
+    width: 80%;
+    height: 400px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.head .all-slider button{
+padding: 10px 30px;
+font-size: 30px;
+color: white;
+background-color: tomato;
+border-radius: 10px;
+
+}
+
+
+.head .all-slider .slider{
+
+}
+.head .all-slider .slider img{
+    background-color: white;
+    margin: 0px 5px;
+    border-radius: 5px;
+    height: 235px;
+    width: 205px;
+    z-index: 0;
+}
+
+
+button#btnOne {
+z-index: 5;
+}
+
+button#btnTwo {
+z-index: 5;
+}
+
+.head .all-slider .img-store{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 860px;
+    height: 239px;
+}
+
+
+
+
+
+.head .all-slider .hidden{
+display: none;
+transition: 1s;
+opacity: 0;
+}
+
+.head .all-slider .active{
+    display: block;
+    opacity: 1;
+}
+
+

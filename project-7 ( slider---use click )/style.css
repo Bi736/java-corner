@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.head{
+
+}
+.head h1{
+    margin-top: 60px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color: white;
+
+    text-shadow: 0 0 10px rgb(0, 255, 255),
+    0 0 20px rgb(0, 255, 255),
+    0 0 40px rgb(0, 255, 255),
+    0 0 60px rgb(0, 255, 255),
+    0 0 100px rgb(0, 255, 255);
+}
+
+
+.all-slider .slider{
+  
+
+}
+.all-slider .slider img{
+border: 1px solid red;
+background-color: white;
+
+}
+
+
+.all-slider{
+    margin-top: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+
+   position: relative;
+}
+
+.all-slider .a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all-slider .b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.all-slider .c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.all-slider .hidden{
+    visibility: hidden;
+    transition: 1s;
+    opacity: 0;
+}
+
+.all-slider .active{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+ .btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn .prev{
+   margin: 0px 100px;
+
+
+
+   background-color: tomato;
+    padding: 8px 20px;
+    color: white;
+    border: 1px solid gray;
+    font-size: 40px;
+    border-radius: 10px;
+}
+

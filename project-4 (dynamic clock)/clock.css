@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+text-align: center;
+margin-top: 150px;
+}
+.container .clock{
+color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 45px;
+
+text-shadow: 0 0 10px rgb(0, 255, 255),
+             0 0 20px rgb(0, 255, 255),
+             0 0 40px rgb(0, 255, 255),
+             0 0 80px rgb(0, 255, 255),
+             0 0 120px rgb(0, 255, 255);
+}
+
+

@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.head{
+    margin-top: 60px;
+}
+.head h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 45px;
+
+    text-shadow: 0 0 10px rgb(0, 255, 204),
+    0 0 20px rgb(0, 255, 204),
+    0 0 40px rgb(0, 255, 204),
+    0 0 80px rgb(0, 255, 204),
+    0 0 120px rgb(0, 255, 204);
+}
+
+.head .slider{
+    width: 80%;
+    border: 1px solid white;
+    height: 400px;
+   margin: auto;
+   margin-top: 80px;
+   border-radius: 5px;
+
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.head .slider button{
+    padding: 10px 30px;
+    font-size: 30px;
+    color: white;
+    background-color: coral;
+    border-radius: 10px;
+}
+
+.head .slider .image{
+
+}
+.head .slider .image img{
+    background-color: white;
+    margin: 0px 10px;
+    border-radius: 8px;
+    width: 300px;
+}

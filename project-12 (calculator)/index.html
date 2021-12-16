@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <!-----------------google fonts------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rampart+One&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-------------------------css link---------------->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    
+    <div class="head">
+        <div class="opacity">
+            <div class="box">
+                <form name="form">
+                <input type="text" value="" id="text" name="display" placeholder="0">
+                </form>
+
+
+
+
+                <div class="keyboard">
+
+                    <div class="lineOne">
+                       <input type="button" name="btn" value="7" class="h4" onclick="calculate(this.value)">
+                       <input type="button" name="btn" value="8" class="h4" onclick="calculate(this.value)">
+                       <input type="button" name="btn" value="9" class="h4" onclick="calculate(this.value)">
+                       <input type="button" name="btn" value="+" class="h4 icon" onclick="calculate(this.value)">
+
+                    </div>
+
+                    <div class="lineTwo">
+                        <input type="button" name="btn" value="4" class="h4" onclick="calculate(this.value)">
+                       <input type="button" name="btn" value="5" class="h4" onclick="calculate(this.value)">
+                       <input type="button" name="btn" value="6" class="h4" onclick="calculate(this.value)">
+                       <input type="button" name="btn" value="*" class="h4 icon" onclick="calculate(this.value)">
+
+                    </div>
+
+                    <div class="lineThree">
+                        <input type="button" name="btn" value="1" class="h4" onclick="calculate(this.value)">
+                       <input type="button" name="btn" value="2" class="h4" onclick="calculate(this.value)">
+                       <input type="button" name="btn" value="3" class="h4" onclick="calculate(this.value)">
+                       <input type="button" name="btn" value="-" class="h4 icon" onclick="calculate(this.value)">
+
+                    </div>
+
+                    <div class="lineFour">
+                        <input type="button" name="btn" value="0" class="h4" onclick="calculate(this.value)">
+                       <input type="button" name="btn" value="00" class="h4" onclick="calculate(this.value)">
+                       <input type="button" name="btn" value="." class="h4" onclick="calculate(this.value)">
+                       <input type="button" name="btn" value="/" class="h4 icon" onclick="calculate(this.value)">
+                    </div>
+
+                    <div class="lineFive">
+                        <input type="button" name="btn" value="Clear" class="h4 extra" onclick="text.value = null">
+                       <input type="button" name="btn" value="Ans" class="h4 extra" onclick="text.value = eval(text.value)">
+                      
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!------------------------js link------------------->
+    <script src="./index.js">
+    </script>
+</body>
+</html>

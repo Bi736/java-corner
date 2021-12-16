@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(0,0,0,.2);
+}
+
+.head h1{
+    text-align: center;
+    margin-top: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+}
+
+.img{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.img img{
+    height: 350px;
+    width: 500px;
+    border-radius: 5px;
+}
+
+.card{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.left{
+    margin: 5px 40px;
+}
+.left button{
+    padding: 8px 22px;
+    background-color: white;
+    color: gray;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid black;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.left button:hover{
+    background-color: rgba(0,0,0,.5);
+    color: white;
+}
+.right{
+    margin: 5px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+label.card-label {
+    text-align: center;
+    margin-bottom: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input#input {
+    border: none;
+    background-color: transparent;
+    outline: transparent;
+}
+
+input#input::selection{
+    background-color:rgb(226, 117, 150);
+    color: black;
+    padding: 5px 8px;
+}
+

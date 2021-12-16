@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookList</title>
+
+    <!-----------------------font awasome link------------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+
+    <!----------------------google fonts-------------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rampart+One&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+
+    <!---------------css link----------------->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="head">
+        <div class="top">
+            <i class="fas fa-book-reader"></i> <h1>BSLEARNING</h1> <span>Book</span> <h1>List</h1>
+        </div>
+
+
+        <form id="book-form">
+
+
+            <div class="form-group">
+                <label for="title">Title</label>
+                <input type="text" id="title" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label for="author">Author</label>
+                <input type="text" id="author" class="form-control">
+            </div>
+
+
+            <div class="form-group">
+                <label for="year">Year</label>
+                <input type="text" id="year" class="form-control">
+            </div>
+
+            <input type="submit" value="Add Book" id="btn" class="btn btn-warning btn-block">
+
+
+
+        </form>
+
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th class="abc">Title</th>
+                    <th class="def">Author</th>
+                    <th class="xyz">Year</th>
+                </tr>
+            </thead>
+            <tbody id="bookList">
+                <!-----
+                <tr>
+                    <th>Name</th>
+                    <th>Name</th>
+                    <th>Name</th>
+                </tr>
+                --->
+            </tbody>
+        </table>
+    </div>
+    
+
+
+
+
+    <!-------------------------javascript link-------------------------->
+     
+    <script src="./index.js"></script>
+</body>
+</html>
